@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body{
+    background-color: #31E3EB;
+    font-family: Arial, Helvetica, serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+}
+h1{
+    text-align: left;
+    
+}
+h2{
+    text-align: left;
+    color: #25b0b7e4;
+
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+    
+}
+#main{
+    background-color: #10494D;
+    text-align: center;
+    color: white;
+}
+.secondary{
+    color: rgba(255, 255, 0, 0.637);
+}
+.terce{
+    color: rgba(255, 0, 0, 0.662);
+}
+.for{
+    color: rgba(0, 0, 255, 0.767);
+}
+
