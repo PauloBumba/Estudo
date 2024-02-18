@@ -1,1 +1,1 @@
-Seja bem vindo ao meu sotfware aproveita no máximo
+Seja bem vindo ao meu sotfware aproveita no máximo;

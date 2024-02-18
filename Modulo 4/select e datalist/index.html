@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select e datalist</title>
+   
+</head>
+<body>
+    <main>
+
+        <section id="lista" >
+            <p>
+                <label for="id">Angola :</label>
+                <select name="angola" id="id">
+                    <option value="" selected>-- Escolha--</option>
+                    <optgroup  label="Luanda" >
+                      <option value="">Viana</option>
+                      <option value="">Luanda</option>
+                      <option value="">Cacuaco</option>
+                      <option value="">Ingombota</option>
+                      <option value="">Maianga</option>
+                      <option value="">Rangel</option>
+
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="id">Cidade Natal</label>
+                <input type="text" name="" id="id" list="is">
+                <datalist id="is">
+                    
+                    <optgroup  label="Luanda" >
+                      <option value="vn">Viana</option>
+                      <option value="Lda">Luanda</option>
+                      <option value="CCC">Cacuaco</option>
+                      <option value="Igb">Ingombota</option>
+                      <option value="Mg">Maianga</option>
+                      <option value="Rg">Rangel</option>
+
+
+                </datalist>
+
+            </p>
+
+
+            <p id="enviar">
+                <input type="submit" value="Enviar" id="enviar">
+
+                <input type="reset" value="Voltar">
+            </p>
+        </section>
+    </main>
+    
+</body>
+</html>
